@@ -9,16 +9,16 @@
 #define MAX_PATHS 100
 #define MAX_LENGTH 1024
 
-// Função para executar programas externos
+// Função para executar comandos externos
 void execute_external_command(char **args, char **paths, int num_paths);
 
-// Função para exibir a lista de comandos disponíveis
+// Exibe lista de ajuda ao usuário
 void display_help();
 
 int main() {
     char input[MAX_LENGTH];
-    char *args[MAX_ARGS];
-    char *paths[MAX_PATHS];
+    char *args[MAX_ARGS];   // vetor de argumentos para os comandos
+    char *paths[MAX_PATHS]; // diretório para passar em comandos como path
     int num_paths = 0;
 
     // Inicializar paths com "/bin" por padrão
