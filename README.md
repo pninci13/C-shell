@@ -33,7 +33,7 @@ Assim que executar, digite "help" para ver os comandos disponíveis no shell.
 ### $\color{SkyBlue}{Código\}$
 
 * Fizemos as implementações básicas e extras e também adicionamos 2 comandos que não estavam no escopo, para que fosse possível testar os outros comandos de forma eficiente
-  e são eles o comando $\color{GreenYellow}{Echo\}$ e $\color{GreenYellow}{Path\}$.
+  e são eles o comando $\color{GreenYellow}{Echo\}$ e $\color{GreenYellow}{Pwd\}$.
 - Existem 3 métodos no programa
     - **Main** - Possui o loop infinito para receber comandos do shell, sendo eles built-in ou internos, como cd, path e exit ou utilizando a função de executar comando externo.
       O método faz um processamento dos dados de entrada, ou seja, os comandos, dividindo-os em tokens e são armazenados do vetor de args. E também é feita uma validação na qual vê se o usuário digita um caracter '\n' de nova linha, se sim
