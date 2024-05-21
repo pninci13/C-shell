@@ -7,7 +7,7 @@ encontrados em terminais atuais.
 Sendo os comandos básicos:
 - cd <diretório> - Mudar de diretório
 - exit - Sair do shell
-- 
+- aa
 
 ### Como compilar?
 Ao clonar o repositório e salvar em algum local em sua máquina.
