@@ -46,4 +46,4 @@ Assim que executar, digite "help" para ver os comandos disponíveis no shell.
 1. Julio Moura
 2. Pedro Ninci
 3. Pedro Bardall
-4. Victor Sardinha
+4. Vitor Sardinha
