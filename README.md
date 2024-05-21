@@ -1,7 +1,7 @@
 # Projeto Shell
 
 ### $\color{SkyBlue}{Objetivo\}$
-* O objetivo deste projeto era criar um shell simples, que conseguisse simular alguns comandos
+* O objetivo deste projeto é criar um shell simples, que conseguisse simular alguns comandos
 encontrados em terminais atuais.
 
 Sendo os comandos básicos:
@@ -10,13 +10,13 @@ Sendo os comandos básicos:
 - path <diretório>:<diretório>  - Adiciona o diretório ao path de ambiente para setar busca de executavéis.
 
 Comandos extras:
-- ls - Lista or arquivos presentes no diretório atual
-- ls -a - Lista or arquivos presentes no diretório atual incluindo arquivos ocultos
-- ls -l - Lista or aquivos com mais detalhes, mostrando permissões, grupos, tamanho, data de modificação...
+- ls - Lista os arquivos presentes no diretório atual
+- ls -a - Lista os arquivos presentes no diretório atual incluindo arquivos ocultos
+- ls -l - Lista os aquivos com mais detalhes, mostrando permissões, grupos, tamanho, data de modificação...
 - cat <arquivo> - Exibe o conteúdo de um arquivo.
 - echo - Printa mensagens ou variavéis.
 - pwd - Mostra pro usuário na tela qual o diretório está atualmente.
-- help - Mostra comandos disóníveis para o usuário.
+- help - Mostra comandos disponíveis para o usuário.
 - clear - Limpa a tela do shell
 
 ### $\color{SkyBlue}{Como\ compilar\ ?\}$
@@ -36,10 +36,10 @@ Assim que executar, digite "help" para ver os comandos disponíveis no shell.
   e são eles o comando $\color{GreenYellow}{Echo\}$ e $\color{GreenYellow}{Pwd\}$.
 - Existem 3 métodos no programa
     - **Main** - Possui o loop infinito para receber comandos do shell, sendo eles built-in ou internos, como cd, path e exit ou utilizando a função de executar comando externo.
-      O método faz um processamento dos dados de entrada, ou seja, os comandos, dividindo-os em tokens e são armazenados do vetor de args. E também é feita uma validação na qual vê se o usuário digita um caracter '\n' de nova linha, se sim
+      O método faz um processamento dos dados de entrada, ou seja, os comandos digitados pelo usuário, dividindo-os em tokens e são armazenados do vetor de args. E também é feita uma validação na qual vê se o usuário digita um caracter '\n' de nova linha, se sim
       ele é removido.
-    - **Executar comandos externos** - Executa comandos que não implementados internamente no shell, ou seja, comandos como echo, ls, cat e outros. E também e feito usando processos, ou seja, é criado um processo filho a partir do pai, executa
-      o processo filho, que no caso é o recebimento do comando digitado pelo usuário e valida se o comando é conhecido ou não e o processo pai aguarda a finalização da execução dos filhos. Validações como erro de criação de processo também estão sendo feitas.
+    - **Executar comandos externos** - Executa comandos que não implementados internamente no shell, ou seja, comandos como echo, ls, cat e outros. E também é feito o uso de processos, ou seja, é criado um processo filho a partir do pai, que executa
+       comandos digitados pelo usuário e valida se o comando é conhecido ou não e o processo pai aguarda a finalização da execução dos filhos. Validações como erro de criação de processo também estão sendo feitas.
     - **Help** - Mostra o menu de ajuda
 
 ### $\color{SkyBlue}{Autores\}$
