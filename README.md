@@ -30,6 +30,17 @@ Assim que executar, digite "help" para ver os comandos disponíveis no shell.
 > [!IMPORTANT]
 > Execute o programa em um ambiente Linux ou WSL, em Windows pode causar eventuais problemas.
 
+### $\color{SkyBlue}{Como\ executar\ os\ comandos\?\}$
+
+```bash
+1) path <diretório>:<diretório>
+2) cd <diretório>
+3) ls (Contém as flags -l -a)
+4) path /usr/bin  *Para poder executar comandos externos em qualquer caminho*
+5) cat <arquivo> ou ser for mais um arquivo cat <arquivo> <arquivo>
+6) echo {mensagem} ou {variavél}
+```
+
 ### $\color{SkyBlue}{Código\}$
 
 * Fizemos as implementações básicas e extras e também adicionamos 2 comandos que não estavam no escopo, para que fosse possível testar os outros comandos de forma eficiente
