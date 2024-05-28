@@ -1,0 +1,9 @@
+Dificuldades:
+    - Implementação da função path e cat tiveram algumas dificuldades para achar o caminho correto e não quebrar quando colocamos o path seguido de um caminho que existe porem deu para corrigir.
+    - Implementação do cd, clear e ls foram feitos sem problemas
+
+Mudanças:
+    - Colocamos algumas mensagens de erros que não tinha nas seguintes funções:
+        - path
+        - cat
+        - echo
